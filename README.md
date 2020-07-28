@@ -1,34 +1,42 @@
 # crypto-asset-dashboard
 
-![app-demo](app-demo.png)
+View various real-time Crypto asset market data!
 
-View live market data for all your crypto assets!
+![app-demo](./images/app-demo.png)
+
+---
 
 ## Overview
 
-This application showcases working with external market datasources to present near real-time information in pretty graphs and charts! This project was a _code-a-long_ which follows along with this [course](https://react.school/).
+There are two ways of running this locally, with each option requiring the same steps to Start each of the Application Services:
 
-To get started:
-
-```
-$ npm install
-$ npm run start
-http://localhost:3000 # in your browser if it doesn't open automatically
-```
-
-Additionally, you can use Docker to build and deploy this application locally:
+A.) NPM
 
 ```
-$ docker build . -t <tag>
-$ docker run <tag>
-http://localhost:3000 # in your browser if it doesn't open automatically
+npm install
+npm run start
+http://localhost:3000 # open in browser if it doesn't open automatically
 ```
+
+B.) Docker
+
+```
+docker build -t <tagName> .
+docker run <tagName>
+http://localhost:3000 # open in browser to view application
+```
+
+---
 
 ## Technologies & Frameworks
 
 - [Create React App](https://facebook.github.io/create-react-app/)
 - [React](https://reactjs.org/)
+- [Highcharts](http://getbootstrap.com/)
 - [Styled Components](https://www.styled-components.com/)
-- [Highcharts](https://www.highcharts.com/)
 - [Cryptocompare](https://www.cryptocompare.com/)
 - [Docker](https://www.docker.com/)
+
+---
+
+_Special Thanks to React.School's Udemy "code-a-long" course!_
